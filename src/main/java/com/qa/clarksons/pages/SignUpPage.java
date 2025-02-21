@@ -35,36 +35,41 @@ public class SignUpPage {
 	private By signUpBtn = By.xpath("//div[text()=' Sign up ']");
 
 	public String getSignUpPageUrl() {
-		String url = eleUtil.waitForURLContains(Constants.LOGIN_PAGE_URL_FRACTION, Constants.DEFAULT_TIME_OUT);
+		String url = eleUtil.waitForURLContains(Constants.SIGNUP_PAGE_URL_FRACTION, Constants.DEFAULT_TIME_OUT);
 		log.info("login page url==>" + url);
-		
 		return url;
 
 	}
 
 	public Exception signUpInvalidDetails() {
 		eleUtil.clickElementWhenReady(continueBtn, 10);
-		eleUtil.clickElementWhenReady(signUpBtn, 10);
+		eleUtil.waitForElementVisible(firstName, Constants.DEFAULT_TIME_OUT).sendKeys("Radha");
+		eleUtil.doSendKeys(lastName, "Somashekhar");
+		WebElement signUp = driver.findElement(signUpBtn);
+
+		if (signUp.isDisplayed()) {
+			signUp.click();
+			log.info(Errors.INVALID_DETAILS_FOUND_ERROR);
+			}
 		return new Exception(Errors.INVALID_DETAILS_FOUND_ERROR);
 	}
-	
-	
 
 	public LoginPage signUpDetails() {
 		driver.navigate().refresh();
 		eleUtil.waitForElementVisible(firstName, Constants.DEFAULT_TIME_OUT).sendKeys("Radha");
 		eleUtil.doSendKeys(lastName, "Somashekhar");
-		eleUtil.doSendKeys(businessEmail, "radhags@123");
+		eleUtil.doSendKeys(businessEmail, "radhags96@gmail.com");
 		eleUtil.doSendKeys(phoneNum, "8904604116");
 		eleUtil.doSendKeys(companyName, "Radha's Logistics");
 		eleUtil.doSelectDropDownByVisibleText(companyType, "Logistics");
 		eleUtil.doSendKeys(city, "Bengaluru");
-		eleUtil.doSelectDropDownByVisibleText(country, "India");	
+		eleUtil.doSelectDropDownByVisibleText(country, "India");
 		WebElement Phone = eleUtil.waitForElementVisible(checkPhone, Constants.DEFAULT_TIME_OUT);
 		Phone.click();
 		String text = eleUtil.doElementGetText(acknowledge);
 		log.info(text + " Phone");
 		eleUtil.doClick(signUpBtn);
+		eleUtil.waitForURLContains(Constants.LOGIN_PAGE_URL_FRACTION, Constants.DEFAULT_TIME_OUT);
 		return new LoginPage(driver);
 	}
 }

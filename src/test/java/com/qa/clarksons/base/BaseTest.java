@@ -10,13 +10,14 @@ import com.qa.clarksons.factory.DriverFactory;
 import com.qa.clarksons.pages.LoginPage;
 import com.qa.clarksons.pages.SignUpPage;
 
+
 public class BaseTest {
 
 	protected WebDriver driver;
 	protected DriverFactory df;
 
 	protected Properties prop;
-	
+
 	protected SignUpPage signUpPage;
 	protected LoginPage loginPage;
 
@@ -24,10 +25,9 @@ public class BaseTest {
 	public void setUp() {
 		df = new DriverFactory();
 		prop = df.initPro();
-		driver = df.initDriver(prop);		
+		driver = df.initDriver(prop);
 		loginPage = new LoginPage(driver);
 		signUpPage = new SignUpPage(driver);
-		// homePage = new HomePage(driver);
 	}
 
 	@AfterTest
