@@ -1,0 +1,25 @@
+2025-02-21 09:12:59 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 09:13:04 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-21 09:13:07 INFO  SignUpPage:66 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-21 09:16:32 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 09:16:32 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 09:16:44 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-21 09:16:46 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
+2025-02-21 09:16:48 INFO  SignUpPage:66 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-21 09:16:48 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
+2025-02-21 12:26:00 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 12:26:00 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 12:26:08 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
+2025-02-21 12:26:09 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-21 12:26:13 INFO  SignUpPage:66 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-21 12:26:13 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
+2025-02-21 12:27:15 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 12:27:15 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 12:27:21 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-21 12:27:21 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
+2025-02-21 12:27:24 INFO  SignUpPage:66 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-21 12:27:25 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
+2025-02-21 12:33:28 INFO  DriverFactory:31 - browser name is chrome
+2025-02-21 12:33:33 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-21 12:33:36 INFO  SignUpPage:66 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-21 12:33:36 INFO  SignUpPage:22 - login page title==>Clarksons Research Portal
