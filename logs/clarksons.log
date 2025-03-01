@@ -100,3 +100,15 @@
 2025-02-21 16:48:12 INFO  SignUpPage:70 - Yes please, I would like to receive marketing updates by: Phone
 2025-02-21 16:48:13 INFO  SignUpPage:26 - Registration Successful
 2025-02-21 16:48:13 INFO  SignUpPage:27 - Thank you for your application for a trial, we will be in touch shortly. Please check your email inbox for further details on your registration. If you don't receive an email within a few seconds, please check your spam filters or contact us for further assistance.
+2025-02-25 12:57:25 INFO  DriverFactory:31 - browser name is chrome
+2025-02-25 12:57:36 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-25 12:57:37 INFO  SignUpPage:52 - ==Could not Sign you up Invalid details provided please provide valid details to sign-up
+2025-02-25 12:57:41 INFO  SignUpPage:70 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-25 12:57:43 INFO  SignUpPage:26 - Registration Successful
+2025-02-25 12:57:43 INFO  SignUpPage:27 - Thank you for your application for a trial, we will be in touch shortly. Please check your email inbox for further details on your registration. If you don't receive an email within a few seconds, please check your spam filters or contact us for further assistance.
+2025-02-25 18:32:08 INFO  DriverFactory:31 - browser name is chrome
+2025-02-25 18:32:37 INFO  SignUpPage:39 - login page url==>https://www.clarksons.net/n/#/portal/account/register
+2025-02-25 18:32:38 INFO  SignUpPage:52 - ==Could not Sign you up Invalid details provided please provide valid details to sign-up
+2025-02-25 18:32:43 INFO  SignUpPage:70 - Yes please, I would like to receive marketing updates by: Phone
+2025-02-25 18:32:45 INFO  SignUpPage:26 - Registration Successful
+2025-02-25 18:32:45 INFO  SignUpPage:27 - Thank you for your application for a trial, we will be in touch shortly. Please check your email inbox for further details on your registration. If you don't receive an email within a few seconds, please check your spam filters or contact us for further assistance.
